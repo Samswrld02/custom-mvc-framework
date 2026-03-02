@@ -143,6 +143,22 @@ class baseModel {
 
         header("Location: $location/home");
     }
+
+    public function delete($id) {
+        $conn = $this->conn;
+
+        $sql = "DELETE FROM MEDIA WHERE id = :id";
+
+        $stmt = $conn->prepare($sql);
+
+        $query = $stmt->execute(["id" => $id]);
+
+        if ($query) {
+            return 1;
+        }
+
+        return 0;
+    }
 }
 
 

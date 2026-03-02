@@ -4,6 +4,7 @@ require_once "./Database/DatabaseClass.php";
 require_once "./controllers/homeController.php";
 require_once "./controllers/editController.php";
 require_once "./controllers/addController.php";
+require_once "./controllers/deleteController.php";
 require_once "./authentication/login.controller.php";
 // require_once "./Router/config.php";
 

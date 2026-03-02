@@ -17,4 +17,5 @@ Router::route("POST", "/update/{resource}/{id}", ["editcontroller" => "update"])
 Router::route("GET", "/add", ["addcontroller" => "show"]);
 Router::route("POST", "/add", ["addcontroller" => "add"]);
 Router::route("POST", "/login", ["login" => "verify"]);
+Router::route("GET", "/delete/{resource}/{id}", ["deletecontroller" => "delete"]);
 
