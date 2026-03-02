@@ -1,3 +1,6 @@
+DROP DATABASE IF EXISTS netland;
+
+CREATE DATABASE netland;
 
 USE netland;
 
