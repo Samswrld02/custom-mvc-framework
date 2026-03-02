@@ -23,7 +23,7 @@ Middels de `turnToClass` helper-methode worden URL-strings dynamisch omgezet naa
 ---
 
 ## 5. Runnen van project.
-Bestand is gebouwd op een centrale vhost, hierdoor moet het project als het gecloned is, in een centrale mvc--style map/root staan. Er wordt namelijk gebruik gemaakt van een urlroot constante. Als je geen mvc--style directory, aanmaakt, zullen de redirects niet werken. Dus mapstructuur moet zijn -> mvc--style/gecloned project.
+Bestand is gebouwd op een centrale vhost, hierdoor moet de projectmap als het gecloned is, hernoemd worden naar mvc--style. Er wordt namelijk gebruik gemaakt van een urlroot constante. Als je geen mvc--style directory aanmaakt, zullen de redirects niet werken. Dus mapstructuur moet zijn -> mvc--style/rest van de files.
 
 1. run ```bash mysql -u root < import.sql```
 2. run migrate.php in de cli voor de users table. ```bash migrate.php ```
